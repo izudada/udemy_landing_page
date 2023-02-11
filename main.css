@@ -2,6 +2,7 @@
 :root{
     --my-border: 1px solid rgb(223, 221, 221);
     --light-blue: #f7f9fa;
+    --button-border: 1px solid #ffffff;
 }
 
 *{
@@ -93,4 +94,73 @@ h1{
     background-color: var(--light-blue);
     display: flex;
     justify-content: space-evenly;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: #1c1d1f;
+    color: #ffffff;
+    padding: 0px 10px;
+}
+
+footer h3{
+    padding-bottom: 10px;
+}
+
+footer .foot-children{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+
+.foot-children ul{
+    list-style-type: none;
+}
+
+.foot-children ul li{
+    padding-top: 10px;
+}
+
+.foot-children ul a{
+    color: #ffffff;
+}
+
+.language{
+    background-color: transparent;
+    width: 140px;
+    height: 60px;
+    font-size: 11pt;
+    border: var(--button-border);
+}
+
+.language a{
+    color: #ffffff;
+}
+
+.borderline{
+    border-bottom: 1px solid var(--light-blue);
+}
+
+.borderline span a{
+    color: #cec0fc;
+}
+
+.logos img{
+    padding-right: 30px;
+}
+
+.teach-buttton{
+    background-color: transparent;
+    padding: 15px 9px;
+    border: var(--button-border);
+    font-size: 14pt;
+}
+
+.teach-buttton a{
+    color: #ffffff;
+}
+
+.copyright{
+    font-size: 10pt;
 }
