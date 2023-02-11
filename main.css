@@ -1,0 +1,71 @@
+/*===== VARIABLES CSS =====*/
+:root{
+    --my-border: 1px solid rgb(223, 221, 221)
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Menu//Nav */
+header{
+    height: 41px;
+    padding: 18px 0;
+    border-bottom: var(--my-border);
+}
+
+header, header ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo{
+    width: 7%;
+}
+
+header ul{
+    width: 90%;
+    list-style-type: none;
+    font-size: 11pt;
+}
+
+.nav-items input{
+    width: 40%;
+    padding: 17px;
+    border-radius: 40px;
+    border: 1px solid rgb(82, 81, 81);
+    background-color: rgb(245, 245, 245)
+}
+
+.user-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.bottom-header{
+    height: 40px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.bottom-header ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 140px;
+    font-size: 11pt;
+}
