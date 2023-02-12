@@ -10,6 +10,10 @@
     padding: 0;
 }
 
+section, footer{
+    margin-top: 30px;
+}
+
 a{
     text-decoration: none;
 }
@@ -163,4 +167,60 @@ footer .foot-children{
 
 .copyright{
     font-size: 10pt;
+}
+
+/* Learning Section*/
+
+.learning{
+    padding: 0px 45px;
+}
+
+.learn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn-container, .learn-div{
+    display: flex;
+}
+
+.learn-container{
+    justify-content: space-between;
+}
+
+.learn-div{
+    width: 30%;
+    height: 150px;
+    margin-top: 20px;
+}
+
+.inner-learn-left{
+    width: 30%;
+    height: 100%;
+    background-color: grey;
+}
+
+.inner-learn-right{
+    width: 70%;
+    height: 100%;
+    padding: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.v1{
+    background-image: url('images/video/image_1.png');
+}
+
+.v2{
+    background-image: url('images/video/image_2.png');
+}
+
+.v3{
+    background-image: url('images/video/imge3.png');
+}
+
+.time-remaining{
+    margin-top: 65px;
 }
