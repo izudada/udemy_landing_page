@@ -22,7 +22,7 @@ Else open the the index.html file using your available browser.
 
 # Live Demo
 
-Project was deployed using Github Pages. [Link]()
+Project was deployed using Github Pages. [Link](https://izudada.github.io/udemy_landing_page)
 
 
 #   Useful Resources
