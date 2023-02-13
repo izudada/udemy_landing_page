@@ -74,7 +74,7 @@ header ul{
     display: flex;
     justify-content: space-between;
     padding: 10px 140px;
-    font-size: 11pt;
+    font-size: 10pt;
 }
 
 /* Hero Section */
@@ -309,4 +309,23 @@ footer .foot-children{
     font-weight: bold;
     font-size: 8pt;
     border: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    .hero-section, header,
+    .bottom-header ul{
+        flex-wrap: wrap;
+    }
+
+    .bottom-header{
+        height: 20vh;
+    }
+
+    .hero-img img{
+        width: 60%;
+    }
+    .next-inner img{
+        width: 100%;
+    }
 }
