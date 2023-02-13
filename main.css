@@ -12,6 +12,7 @@
 
 section, footer{
     margin-top: 30px;
+    padding: 0px 45px;
 }
 
 a{
@@ -171,10 +172,6 @@ footer .foot-children{
 
 /* Learning Section*/
 
-.learning, .next-learning, .topic-section{
-    padding: 0px 45px;
-}
-
 .learn{
     display: flex;
     justify-content: space-between;
@@ -282,4 +279,34 @@ footer .foot-children{
     padding: 8px 13px;
     margin-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.price{
+    margin-top: 106px;
+}
+
+
+/* Courses */
+.courses{
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses a{
+    width: 18%;
+    height: 300px;
+    margin-top: 10px;
+    color: black;
+}
+
+.course img{
+    width: 100%;
+}
+
+.bestseller{
+    padding: 8px 6px;
+    background-color: #eceb98;
+    font-weight: bold;
+    font-size: 8pt;
+    border: none;
 }
